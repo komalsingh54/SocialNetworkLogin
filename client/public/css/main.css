@@ -1,0 +1,63 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+
+.facebook {
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.google {
+  background-color: red !important;
+  color: white !important;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.fa-google-f:before,
+.fa-google:before {
+  content: "\f09a";
+}
+
+.github {
+  background-color: black !important;
+  color: white !important;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.fa-github-f:before,
+.fa-github:before {
+  content: "\f09a";
+}
+
+.linkedin {
+  background-color: #2b2b82d4 !important;
+  color: white !important;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.fa-linkedin-f:before,
+.fa-linkedin:before {
+  content: "\f09a";
+}
+
+.twitter {
+  background-color: #8a2be2c7 !important;
+  color: white !important;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.fa-twitter-f:before,
+.fa-twitter:before {
+  content: "\f09a";
+}

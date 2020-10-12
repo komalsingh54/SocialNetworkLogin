@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+<nav class="light-blue lighten-1" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">Profile</a>
+    <a href="/logout" class="right">Logout</a>
+  </div>
+</nav>
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <br><br>
+    <div class="row center">
+      <div class="col s6">
+        <div class="card">
+          <div class="card-content blue lighten-3">
+            <span class="card-title white-text"><strong><i class="large material-icons">person</i>
+              </strong></span>
+          </div>
+          <div class="card-action">
+            <h5><b>{{user.name}}</b></h5>
+            <p><strong>Facebook id</strong>: {{user.someID}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
